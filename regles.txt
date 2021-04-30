@@ -1,15 +1,23 @@
-*er ⇒   *age					// laver ⇒ lavage
-*er & -*ier ⇒ *age
+*er ⇒  *age					// laver ⇒ lavage
+*er ⇒  *oire
+*er ⇒  *ement
+*ger & r_pos == Verb: ⇒ *geur
+*ner & r_pos == Verb: ⇒ *naison
+*quer & r_pos == Verb: ⇒ *cation
+*ser & r_pos == Verb: ⇒ *sation 
+*quer & r_pos == Verb: ⇒ *quage
+
+{% comment %} *er & -*ier ⇒ *age
 
 * er ⇒ *age & r_pos == Nom: & r_isa == action
-* er & r_pos == Ver:Inf ⇒ *age & r_pos == Nom: & r_isa == action
+* er & n_pos == Ver:Inf ⇒ *age & r_pos == Nom: & r_isa == action {% endcomment %}
 
 
-*er ⇒  *ement					
-* er ⇒ *ement & r_pos == N & r_isa == action
+				
+{% comment %} * er ⇒ *ement & r_pos == N & r_isa == action {% endcomment %}
 
 
-*er ⇒  *eur  & r_isa personne		 
+{% comment %} *er ⇒  *eur  & r_isa personne		 
 // (exemple : miner => mineur) 
 *er ⇒  *euse 				
 // (exemple : chanter => chanteuse) r_isa Personne
@@ -17,7 +25,7 @@
 *ger ⇒  *geoire		 	
 *ger ⇒ *goire & r_pos == N & r_isa lieu
 
-*er ⇒  *oire’ 				 
+*er ⇒  *oire 				 
 // (exemple : patiner => patinoire) r_lieu
 
 *er ⇒  *oir’ 				
@@ -96,4 +104,4 @@ nom:"" ⇒ :nom"arde"
 
 *e & r_isa animal ⇒  *eau & r_isa animal & r_isa bébé  
 tester si ce n'est pas 
-*e &    *r_isa animal     
+*e &    *r_isa animal      {% endcomment %}

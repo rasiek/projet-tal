@@ -1,0 +1,917 @@
+
+e;10561;'douche';1;1394
+e;1470;'immersion';1;82
+e;2639;'robinets';1;50
+e;2975;'lavure';1;62
+e;7651;'pommeau';1;102
+e;11568;'sanitaire';1;168
+e;12605;'hygiène';1;894
+e;15862;'aspersion';1;52
+e;17530;'se laver';1;816
+e;19031;'douchette';1;94
+e;19150;'chaud';1;2304
+e;20264;'faire sa toilette';1;138
+e;22218;'camp';1;462
+e;23796;'soin du corps';1;122
+e;25599;'serviette';1;828
+e;26519;'robinet';1;610
+e;26608;'savon';1;1218
+e;28714;'nudité';1;328
+e;30307;'joint';1;638
+e;32981;'ablution';1;64
+e;36222;'nu';1;593
+e;37201;'pomme';1;2224
+e;38339;'décantation';1;66
+e;41266;'lessive';1;586
+e;41415;'gel';1;636
+e;41523;'mitigeur';1;76
+e;42160;'baignade';1;286
+e;42836;'hydrologie';1;136
+e;42890;'chaude';1;594
+e;44151;'décantage';1;50
+e;45179;'maison';1;12514
+e;48041;'sauna';1;234
+e;53153;'shampooing';1;96
+e;54063;'jonglerie';1;70
+e;58314;'lavage';1;588
+e;58867;'jet';1;260
+e;59618;'bain';1;932
+e;60663;'dégorgement';1;50
+e;62493;'déconvenue';1;92
+e;65012;'eau';1;11009
+e;68159;'averse';1;640
+e;69786;'robinetterie';1;106
+e;71577;'shampoing';1;199
+e;74762;'carrelage';1;254
+e;75425;'flexible';1;114
+e;77049;'désillusion';1;126
+e;79342;'matin';1;1030
+e;80522;'jacuzzi';1;62
+e;84718;'arrosage';1;130
+e;86398;'évacuation';1;216
+e;90053;'lavabo';1;712
+e;90358;'blanchissage';1;66
+e;90880;'remède';1;274
+e;91046;'pluie';1;3268
+e;91548;'bains';1;88
+e;95364;'nettoyage';1;556
+e;95494;'reproche';1;218
+e;96219;'cabine';1;336
+e;96634;'affusion';1;50
+e;98636;'hammam';1;138
+e;99820;'doucher';1;110
+e;101140;'irrigation';1;116
+e;101264;'déception';1;750
+e;102206;'médecine';1;7140
+e;102705;'bac';1;500
+e;105716;'tuyau';1;626
+e;109733;'propreté';1;482
+e;110345;'soins du corps';1;140
+e;113013;'thermes';1;116
+e;116045;'bidet';1;132
+e;118316;'propre';1;1170
+e;125201;'hydrothérapie';1;58
+e;126091;'désappointement';1;78
+e;127487;'échec';1;1418
+e;132716;'baignoire';1;1004
+e;134158;'mousse';1;798
+e;134886;'plomberie';1;356
+e;135190;'lieu';1;1642
+e;139194;'toilette';1;438
+e;141574;'bonde';1;78
+e;142984;'Psychose';1;70
+e;143613;'porte';1;4210
+e;143876;'laver';1;2460
+e;143960;'jet d'eau';1;88
+e;143981;'rideau';1;538
+e;147195;'ablutions';1;106
+e;151801;'se doucher';1;300
+e;152469;'froide';1;322
+e;152733;'salle de bain';1;1372
+e;154146;'prendre une douche';1;266
+e;154195;'rideau de douche';1;68
+e;154720;'eau chaude';1;254
+e;155683;'salle de bains';1;298
+e;156244;'douche froide';1;88
+e;156266;'douche chaude';1;58
+e;156267;'douche glacée';1;50
+e;157283;'lieu>134218';1;264;'lieu>endroit'
+e;160564;'pomme de douche';1;62
+e;166627;'douché';1;56
+e;213519;'mousse>26608';1;24;'mousse>savon'
+e;214236;'jet>140315';1;68;'jet>liquide'
+e;215540;'serviette>269576>166397';1;46;'serviette>pièce de tissu>serviette de bain'
+e;221003;'douche écossaise';1;6
+e;223220;'savon>3225';1;104;'savon>savonnette'
+e;226916;'se savonner';1;96
+e;228324;'cabine>10561';1;54;'cabine>douche'
+e;239128;'_COM';36;50
+e;244104;'eau froide';1;98
+e;248397;'prendre sa douche';1;74
+e;252434;'bac à douche';1;6
+e;253156;'bidet>253154';1;30;'bidet>appareil sanitaire'
+e;254523;'cabine de douche';1;14
+e;260547;'douche vaginale';1;12
+e;268933;'douche à l'italienne';1;52
+e;270709;'douche dorée';1;50
+e;286045;'douche de sécurité';777;50
+e;286046;'douche fixe de premiers secours';777;50
+e;286047;'douche portative de sécurité';777;50
+e;294385;'installation sanitaire';777;50
+e;322451;'::>66:10561>17:162400';8;50;'douche [carac] crapuleuse'
+e;348248;'douche alternante';1;50
+e;348249;'douche médicale';1;50
+e;348250;'douche rectale';1;50
+e;384567;'trajectoire parabolique';1;50
+e;2071762;'irrigations';2;0
+e;2540519;'pare-douche';1;0
+e;6527174;'procédure médicale';1;8
+e;6950950;'en:douche';1;0
+e;9108647;'en:irrigation';1;0
+e;9108716;'en:douching procedure';1;0
+e;11216124;'douche>143960>147195';1;20;'douche>jet d'eau>ablutions'
+e;14381242;'::>66:68439>24:86306';8;0;'individu [peut] prendre'
+e;14388762;'::>66:68439>24:14388760';8;0;'individu [peut] chanter [endroit] douche'
+e;14388767;'::>66:68439>24:14388765';8;0;'individu [peut] se masturber [endroit] douche'
+e;14464352;'::>66:91723>24:14464350';8;0;'adolescent [peut] se branler [endroit] douche'
+e;14464355;'::>66:74860>24:14464350';8;0;'homme [peut] se branler [endroit] douche'
+e;14465374;'::>66:68439>24:14465372';8;0;'individu [peut] prendre [objet] douche'
+e;14920237;'en:averse';1;0
+e;14921174;'en:shower';1;0
+e;14922234;'en:downpour';1;0
+e;15056968;'en:letdown';1;0
+e;15062444;'en:tongue-lashing';1;0
+e;15104093;'en:shower stall';1;0
+e;15207891;'en:shower cubicle';1;0
+e;15207896;'en:shower-bath';1;0
+e;15222528;'en:get soaked';1;0
+e;15263617;'en:dressing-down';1;0
+e;15431566;'en:shower treatment';1;0
+e;15431567;'en:get sodden';1;0
+e;15431568;'en:get drenched';1;0
+e;15431569;'en:ticking-off';1;0
+e;217386;'douche>143960';1;64;'douche>jet d'eau'
+e;217387;'douche>135190';1;58;'douche>lieu'
+e;217388;'douche>77049';1;50;'douche>désillusion'
+e;2945304;'douche>54063';1;0;'douche>jonglerie'
+e;14288601;'douche>2946892';1;0;'douche>Ver:Conjug'
+e;14288602;'douche>171870';1;0;'douche>Nom:'
+e;146881;'Nom:Fem+SG';4;50
+e;150117;'Ver:IPre+SG+P1';4;50
+e;150118;'Ver:IPre+SG+P3';4;50
+e;150119;'Ver:SPre+SG+P1';4;50
+e;150120;'Ver:SPre+SG+P3';4;50
+e;161698;'Ver:IPre+SG+P1:IPre+SG+P3:SPre+SG+P1:SPre+SG+P3:ImPre+SG+P2';4;50
+e;171870;'Nom:';4;50
+e;212235;'Ver:';4;50
+e;2586628;'Gender:Fem';4;0
+e;2586629;'Number:Sing';4;0
+e;2935005;'VerbalTime:Present';4;0
+e;2946892;'Ver:Conjug';4;0
+e;3093590;'VerbalMode:Indicatif';4;0
+e;3093591;'VerbalMode:Subjonctif';4;0
+e;14270798;'VerbalMode:Impératif';4;0
+e;14270847;'Ver:ImPre+SG+P2';4;0
+e;14270942;'VerbalPers:P1';4;0
+e;14270943;'VerbalPers:P2';4;0
+e;14270944;'VerbalPers:P3';4;0
+e;14270945;'VerbalNumber:SG';4;0
+e;140315;'liquide';1;2338
+e;157284;'lieu>68467';1;58;'lieu>poisson'
+e;63932;'remontrance';1;110
+e;67329;'engueulade';1;458
+e;205473;'petite pluie';1;56
+e;6294403;'douche du vagin';1;0
+e;6354261;'douche nasale';1;0
+e;6428560;'lavage nasal';1;0
+e;11216129;'douche froide>203495';1;0;'douche froide>mauvaise surprise'
+e;11216130;'douche froide>40531';1;2;'douche froide>température'
+e;11519208;'douche d'or';777;0
+e;14304754;'douche tiède';1;0
+e;14388761;'::>66:10561>30:58135';8;0;'douche [lieu pour] chanter'
+e;14388766;'::>66:10561>30:117639';8;0;'douche [lieu pour] se masturber'
+e;14464351;'::>66:10561>30:36946';8;0;'douche [lieu pour] se branler'
+e;14465373;'::>66:10561>26:86306';8;0;'douche [se faire] prendre'
+e;14599148;'La douche à 3 balles';777;0
+e;14734007;'douche tonique';1;0
+e;15207888;'douche à jet';1;0
+e;15207897;'douche sensorielle';1;0
+e;15573163;'douche à affusion';1;0
+e;35712;'atome';1;1526
+e;15202986;'en:shower head';1;0
+e;13861;'temps';1;4040
+e;60152;'bassin';1;608
+e;61016;'prison';1;2744
+e;69943;'fleuve';1;1666
+e;134474;'piscine';1;1626
+e;152945;'salle d'eau';1;166
+e;154008;'chambre d'hôtel';1;188
+e;14960076;'en:shower room';1;0
+e;15112602;'en:hotel room';1;0
+e;15209969;'en:shower-room';1;0
+e;152446;'gel douche';1;130
+e;156268;'pommeau de douche';1;66
+e;157529;'tuyau de douche';1;50
+e;159507;'bac de douche';1;68
+e;165260;'petite douche';1;50
+e;205173;'passer à la douche';1;50
+e;242083;'fleur de douche';1;4
+e;254519;'flexible de douche';1;50
+e;262566;'après la douche';1;50
+e;267894;'salle de douche';1;50
+e;339647;'bonnet de douche';1;50
+e;388543;'à la douche';1;50
+e;439511;'sous la douche';1;70
+e;439512;'chanter sous la douche';1;50
+e;2374374;'gel-douche';1;0
+e;2487457;'bain-douche';1;0
+e;2561490;'demi-douche';1;0
+e;3573943;'chute dans la douche';1;0
+e;3692730;'glisser sous la douche';1;0
+e;3695958;'se branler sous la douche';1;4
+e;3695968;'se faire sucer sous la douche';1;0
+e;3705745;'rester sous la douche pendant des heures';1;0
+e;3706289;'être obligé de prendre une douche froide';1;0
+e;3706556;'se laver un pied sous la douche en équilibre sur une jambe';1;0
+e;3711563;'glisser dans la douche';1;0
+e;5304898;'serviette de douche';1;0
+e;5331559;'rester sous la douche';1;4
+e;5331560;'traîner sous la douche';1;0
+e;5919815;'chariot-douche';777;0
+e;6387383;'méthode de douche vaginale post-coïtale';1;0
+e;6422096;'donner une douche au patient';1;0
+e;9131048;'paroi de douche';1;0
+e;10933644;'prendre une douche froide';1;0
+e;13518336;'3 minutes douche comprise';1;0
+e;14532490;'nettoyer la douche';1;0
+e;14594500;'chambre avec douche';1;0
+e;14594503;'chambre avec douche et WC';1;0
+e;15039216;'bacs à douche';1;0
+e;15207894;'bonde de douche';1;0
+e;15241333;'douche de plain-pied';1;0
+e;15257041;'Il a pris une douche pour se rafraîchir.';1;0
+e;15261142;'Elle était trop fatiguée pour prendre une douche.';1;0
+e;15301280;'chauffe-eau électrique instantané pour douche';1;0
+e;15325243;'Une douche consomme moins d'eau qu'un bain.';1;0
+e;16038013;'collier-douche';1;0
+e;16038501;'bloc-douche';1;0
+e;151522;'_FL:9';6;50
+e;151550;'_FL:8';6;50
+e;151553;'_FL:0';6;50
+e;151564;'_FL:5';6;50
+e;151568;'_FL:11';6;50
+e;151576;'_FL:6';6;50
+e;151587;'_FL:10';6;50
+e;151663;'_FL:15';6;50
+e;151767;'_FL:17';6;50
+e;152011;'_FL:20';6;50
+e;152012;'_FL:21';6;50
+e;152254;'_FL:22';6;50
+e;152813;'_FL:28';6;50
+e;152836;'_FL:24';6;50
+e;152842;'_FL:25';6;50
+e;152843;'_FL:27';6;50
+e;153037;'_FL:26';6;50
+e;153835;'_FL:32';6;50
+e;157147;'_FL:30';6;50
+e;91358;'appartement';1;2628
+e;96851;'pièce';1;3154
+e;102000;'hôtel';1;1498
+e;132995;'immeuble';1;1882
+e;134065;'stade';1;1436
+e;143608;'pièce d'eau';1;76
+e;151469;'hotel';1;120
+e;9088009;'en:hotel';1;0
+e;13843;'tiède';1;258
+e;142663;'sale';1;1392
+e;154574;'brûlante';1;88
+e;160277;'spacieuse';1;64
+e;162866;'occupée';1;66
+e;247812;'non vivant';1;58
+e;1451940;'détendant';1;0
+e;2947299;'occupée>13943';1;0;'occupée>place'
+e;172435;'Langage:familier';18;50
+e;3575927;'Morpho:min';18;50
+e;3576104;'Morpho:nospace';18;50
+e;14916413;'Langue:français';18;50
+e;62958;'pédiluve';1;72
+e;118757;'rinçage';1;102
+e;147829;'douches';1;54
+e;147830;'doucheur';1;52
+e;219608;'douchettes';1;50
+e;219609;'douchée';1;52
+e;229547;'douchés';1;50
+e;44726;'couler';1;728
+e;115385;'détendre';1;142
+e;119858;'tremper';1;340
+e;2344;'mouiller';1;658
+e;20799;'relaxer';1;130
+e;24553;'baigner';1;162
+e;58842;'shampooiner';1;60
+e;67803;'arroser';1;620
+e;78727;'apaiser';1;188
+e;85286;'nettoyer';1;2440
+e;117283;'rincer';1;286
+e;128091;'savonner';1;148
+e;157650;'::>14:145953>29:81459>16';9;50;'Avec quoi pourrait-on démaquiller un visage ?'
+e;158269;'::>13:61490>29:2344>16';9;50;'Avec quoi une femme pourrait mouiller ?'
+e;158916;'::>14:120949>29:2344>16';9;50;'Avec quoi pourrait-on mouiller un vêtement ?'
+e;159965;'::>14:92471>29:117283>16';9;50;'Avec quoi pourrait-on rincer un linge ?'
+e;164734;'::>13:61490>29:85286>16';9;50;'Avec quoi une femme pourrait nettoyer ?'
+e;326628;'::>13:61490>29:85286';8;50;'nettoyer [sujet] femme'
+e;327015;'::>14:145953>29:81459';8;50;'démaquiller [objet] visage'
+e;327285;'::>13:61490>29:2344';8;50;'mouiller [sujet] femme'
+e;327328;'::>14:92471>29:117283';8;50;'rincer [objet] linge'
+e;327431;'::>14:120949>29:2344';8;50;'mouiller [objet] vêtement'
+e;328590;'::>16:10561>29:117283';8;50;'rincer [avec] douche'
+e;45133;'boucher';1;760
+e;86306;'prendre';1;1352
+e;115944;'récurer';1;190
+e;156672;'::>13:53216>29:98319>14';9;50;'Qu'est-ce qu'un plombier pourrait réparer ?'
+e;326614;'::>13:53216>29:98319';8;50;'réparer [sujet] plombier'
+e;14381241;'::>13:68439>29:86306';8;0;'prendre [sujet] individu'
+e;14465372;'::>14:10561>29:86306';8;0;'prendre [objet] douche'
+e;3225;'savonnette';1;128
+e;51126;'cheveux';1;3106
+e;77871;'détergent';1;240
+e;98392;'vapeur';1;674
+e;106035;'gant';1;368
+e;113829;'masturbation';1;494
+e;152758;'vapeur d'eau';1;204
+e;165965;'poil pubien';1;92
+e;260539;'toilette intime';1;78
+e;332667;'produit de lavage';1;50
+e;405965;'hair';1;54
+e;6912949;'en:hair';1;0
+e;7376670;'en:masturbation';1;0
+e;5692;'baiser';1;2686
+e;6973;'essuyer';1;330
+e;7427;'frotter';1;472
+e;12148;'se rincer';1;88
+e;19017;'siffler';1;238
+e;26122;'se tripoter';1;64
+e;36946;'se branler';1;112
+e;45225;'effrayer';1;246
+e;58135;'chanter';1;1888
+e;60726;'battre la mesure';1;86
+e;67823;'shampouiner';1;76
+e;74222;'assassiner';1;1866
+e;117639;'se masturber';1;186
+e;119759;'se détendre';1;246
+e;131723;'se frotter';1;66
+e;137831;'faire l'amour';1;1936
+e;138211;'s'envoyer en l'air';1;156
+e;158563;'::>14:107902>29:58135>15';9;50;'Où pourrait-on chanter une chanson ?'
+e;158971;'::>14:61490>29:1633>15';9;50;'Où pourrait-on apercevoir une femme ?'
+e;161149;'::>13:61490>29:93467>15';9;50;'Où une femme pourrait désinfecter ?'
+e;161661;'::>14:130949>29:85286>15';9;50;'Où pourrait-on nettoyer une vaisselle ?'
+e;162431;'::>14:61490>29:3468>15';9;50;'Où pourrait-on satisfaire une femme ?'
+e;162553;'::>14:152543>29:117283>15';9;50;'Où pourrait-on rincer des mains ?'
+e;162688;'::>14:57253>29:115944>15';9;50;'Où pourrait-on récurer une casserole ?'
+e;162788;'::>14:77008>29:81459>15';9;50;'Où pourrait-on démaquiller des yeux ?'
+e;163170;'rafraichir';1;68
+e;163760;'::>13:74860>29:127428>15';9;50;'Où un homme pourrait foutre ?'
+e;164137;'::>14:2050>29:58135>15';9;50;'Où pourrait-on chanter une mélodie ?'
+e;164320;'::>14:51126>29:34284>15';9;50;'Où pourrait-on brosser des cheveux ?'
+e;165960;'::>14:95245>29:99428>15';9;50;'Où pourrait-on lorgner une fille ?'
+e;166010;'::>13:68439>29:127428>15';9;50;'Où un individu pourrait foutre ?'
+e;190936;'::>13:61490>29:85286>15';9;50;'Où une femme pourrait nettoyer ?'
+e;198022;'coucher avec qqn';1;52
+e;214747;'tirer une pipe';1;50
+e;215334;'se laver les cheveux';1;146
+e;233607;'::>16:65012>29:117283>15';9;50;'Où pourrait-on rincer avec une eau ?'
+e;263169;'avoir les cheveux mouillés';1;22
+e;326774;'::>14:95245>29:99428';8;50;'lorgner [objet] fille'
+e;326996;'::>13:61490>29:93467';8;50;'désinfecter [sujet] femme'
+e;327347;'::>14:107902>29:58135';8;50;'chanter [objet] chanson'
+e;327439;'::>14:61490>29:1633';8;50;'apercevoir [objet] femme'
+e;327474;'::>14:2050>29:58135';8;50;'chanter [objet] mélodie'
+e;327653;'::>14:51126>29:34284';8;50;'brosser [objet] cheveux'
+e;327860;'::>14:77008>29:81459';8;50;'démaquiller [objet] yeux'
+e;327932;'::>14:130949>29:85286';8;50;'nettoyer [objet] vaisselle'
+e;328027;'::>14:152543>29:117283';8;50;'rincer [objet] mains'
+e;328056;'::>14:61490>29:3468';8;50;'satisfaire [objet] femme'
+e;328120;'::>14:57253>29:115944';8;50;'récurer [objet] casserole'
+e;328149;'::>13:74860>29:127428';8;50;'foutre [sujet] homme'
+e;328654;'::>13:68439>29:127428';8;50;'foutre [sujet] individu'
+e;329112;'::>16:65012>29:117283';8;50;'rincer [avec] eau'
+e;332634;'se mouiller les cheveux';1;2
+e;332635;'se mouiller la tête';1;2
+e;1966043;'coucher avec quelqu'un';1;0
+e;2607795;'coucher avec';1;2
+e;2607796;'avoir des relations sexuelles avec';1;0
+e;14388758;'::>13:68439>29:58135';8;0;'chanter [sujet] individu'
+e;14388760;'::>31:10561>29:58135';8;0;'chanter [endroit] douche'
+e;14388763;'::>13:68439>29:117639';8;0;'se masturber [sujet] individu'
+e;14388765;'::>31:10561>29:117639';8;0;'se masturber [endroit] douche'
+e;14464345;'::>13:91723>29:36946';8;0;'se branler [sujet] adolescent'
+e;14464350;'::>31:10561>29:36946';8;0;'se branler [endroit] douche'
+e;14464353;'::>13:74860>29:36946';8;0;'se branler [sujet] homme'
+e;14330;'satisfaction';1;614
+e;28453;'bonheur';1;2180
+e;37298;'amour';1;7056
+e;57221;'joie';1;3888
+e;91691;'surprise';1;1186
+e;102345;'plaisir';1;3530
+e;103405;'indifférence';1;610
+e;146357;'envie';1;1618
+e;162759;'_INFO-SEM-PLACE';36;504
+e;162763;'_INFO-SEM-THING-CONCRETE';36;1238
+e;191667;'_INFO-SEM-THING-ARTEFACT';36;242
+e;214534;'_INFO-MEANING-FIGURED';36;50
+e;217817;'_INFO-POLYSEMIC';36;50
+e;223172;'_POL-NEG';36;50
+e;223173;'_POL-POS';36;50
+e;241794;'_POL-NEUTRE';36;50
+e;248197;'_SEX_YES';36;50
+e;248198;'_SEX_NO';36;50
+e;254876;'_POL-POS_PC';36;50
+e;254877;'_POL-NEUTRE_PC';36;50
+e;254878;'_POL-NEG_PC';36;50
+e;276096;'_INFO-WIKI-YES';36;50
+e;317329;'_POLIT_7NOPOL';36;50
+e;438949;'_INFO-POLYMORPHIC';36;50
+e;458629;'_INFO-SEM-PLACE-HUMAN';36;504
+e;2585996;'_INFO-CNRTL-YES';36;50
+e;15991432;'_ANIME-NO';36;50
+e;23883;'se défaire';1;70
+e;36098;'légionellose';1;62
+e;65210;'tout nu';1;134
+e;158612;'être propre';1;118
+e;231351;'maladie des légionnaires';1;4
+e;239464;'être trempé';1;52
+e;251332;'linge de toilette';1;26
+e;2923611;'se défaire>81963';1;0;'se défaire>se déshabiller'
+e;6836862;'en:legionellosis';1;0
+e;15235681;'en:bathroom linen';1;0
+e;165670;'::>16:10561>29:117283>14';9;50;'Que pourrait-on rincer avec une douche ?'
+e;153956;'aller au boulot';1;84
+e;222212;'aller au travail';1;106
+e;254122;'aller travailler';1;64
+e;258468;'aller bosser';1;144
+e;321758;'appel manqué';1;60
+e;208100;'sentir le fauve';1;134
+e;250230;'odeur de pieds';1;98
+e;15196;'blanc';1;4426
+e;145583;'rose';1;1822
+e;116382;'sueur';1;490
+e;141176;'réveil';1;826
+e;209095;'tirer du lit';1;50
+e;221714;'réveil>19980';1;44;'réveil>éveil'
+e;228003;'séance de musculation';1;50
+e;264014;'rasé de près';1;34
+e;280083;'Rasé de près';777;50
+e;444021;':r11356914';10;50
+e;1072922;':r12461585';10;0
+e;1313338;':r384790';10;0
+e;2325442;':r229620';10;0
+e;2325468;':r416689';10;0
+e;2591005;':r556579';10;0
+e;2734368;':r2277895';10;0
+e;2945305;':r136729';10;0
+e;2945306;':r223185';10;0
+e;2945307;':r629096';10;0
+e;2945308;':r223184';10;0
+e;3177327;':r159553';10;0
+e;4308347;':r33250727';10;0
+e;4366675;':r275030';10;0
+e;4690348;':r72402338';10;0
+e;9021017;':r195487031';10;0
+e;9733818;':r9984625';10;0
+e;10680599;':r2069000';10;0
+e;11216128;':r210722851';10;0
+e;11301723;':r289175307';10;0
+e;14740331;':r9997343';10;0
+e;14740855;':r2129911';10;0
+e;16331059;':r431504303';10;0
+e;16332178;':r431509205';10;0
+e;16345135;':r431509299';10;0
+e;16350928;':r405902308';10;0
+e;16351058;':r430996873';10;0
+e;16353428;':r430400590';10;0
+e;12674831;'a8c36217efd4a0dd593d941346e053dc';200;0
+e;12674833;'7486b15176fbf17c921e8a1487e4892d';200;0
+e;12679094;'e8f25d4183374a2a3bb495939df690b4';200;0
+e;12689260;'2b3262659487a7b436318ca798a69990';200;0
+e;12716140;'a7dc28b5ebed7bd0e38ede8ab4ddc5ef';200;0
+e;12889543;'7494de8ebc62df1d51efc43007596714';200;0
+e;12983571;'3ef94c2b2e6bed0b9f8544007ed6f5e7';200;0
+e;13254475;'c6cd0bc34698393dd05624b5e367b13b';200;0
+e;13445594;'441727d126ae0255de896d8cc8c096de';200;0
+e;13446344;'32d7e9eb8441ea8e9132559a3c1aa835';200;0
+e;13549933;'8e730fa734f6509300f28a03344cfe0e';200;0
+e;14095880;'1f5a1c28776f918f493c53ca35f88b9f';200;0
+e;14095905;'f79589b8fa342eb6ae89df1988dab210';200;0
+e;14207889;'85bb82e536f58502540619710cce50e4';200;0
+e;14231102;'96a4ee37f9b3bcf8de5467b34d348a35';200;0
+e;16364958;'2d2dd75c7a58c76f2b5560ddbaefd371';200;0
+e;3228593;'wiki:@';444;0
+e;3387223;'bn:00071324n';444;0
+e;3387224;'bn:00071325n';444;0
+e;3387225;'bn:00028431n';444;0
+e;3800025;'dbnary:fra:__ws_1_douche__nom__1';444;0
+e;3823504;'dbnary:fra:__ws_2_douche__nom__1';444;0
+e;3847107;'dbnary:fra:__ws_3_douche__nom__1';444;0
+e;6090861;'umls:C2936784';444;0
+e;2983124;'_SW';36;50
+e;891;'psychiatrie';1;422
+e;1316;'Grèce antique';1;244
+e;7093;'Harz';1;54
+e;10679;'Première Guerre mondiale';1;128
+e;11844;'Rouen';1;270
+e;21383;'débit';1;164
+e;41134;'Vienne';1;94
+e;51761;'Skylab';1;50
+e;60607;'métonymie';1;54
+e;63580;'Autriche';1;172
+e;69754;'grecque';1;168
+e;74846;'corps';1;4798
+e;85723;'chauffe';1;84
+e;87987;'France';1;3144
+e;96396;'Bienne';1;50
+e;111953;'bains publics';1;56
+e;113317;'Paris';1;1888
+e;124509;'min';1;50
+e;130109;'thermalisme';1;70
+e;131156;'égyptienne';1;86
+e;137883;'Henri III';1;72
+e;138658;'Baignade';1;50
+e;138915;'L';1;782
+e;140574;'Bain';1;50
+e;144071;'Delphes';1;94
+e;144632;'Bordeaux';1;220
+e;152488;'Culture';1;58
+e;161306;'prisons';1;92
+e;166952;'kWh';1;50
+e;203929;'mitigeur thermostatique';1;50
+e;212531;'Minute';666;2
+e;216164;'Égypte antique';1;34
+e;273217;'campings';777;50
+e;413359;'Prison';1;50
+e;426183;'Rammelsberg';1;52
+e;426697;'Savon';1;50
+e;431929;'Baignoire';1;50
+e;435439;'Camping';1;50
+e;2061483;'gymnastes';2;0
+e;3174853;'effet venturi';1;0
+e;5796610;'Charles Cazalet';777;0
+e;5964973;'Robinet';1;0
+e;6000808;'Pete Conrad';777;0
+e;8568681;'Douches froides';777;0
+e;9955125;'Bonde';1;0
+e;10001750;'Psychiatrie';1;0
+e;10420965;'Shampooing';777;0
+e;10505040;'Gymnaste';1;0
+e;10876080;'élément culturel';1;0
+e;11374481;'Litre';1;0
+e;213783;'carreau>85891';1;2;'carreau>arbalète'
+e;213784;'carreau>142861';1;18;'carreau>vitre'
+e;213786;'carreau>87729';1;4;'carreau>jeu de cartes'
+e;215004;'pomme>87286';1;290;'pomme>fruit'
+e;223221;'savon>11358';1;78;'savon>substance'
+e;234085;'carreau>87109';1;52;'carreau>quadrillage'
+e;247843;'carreau>124526';1;50;'carreau>pétanque'
+e;247844;'carreau>154710';1;50;'carreau>fer à repasser'
+e;247845;'carreau>140613';1;50;'carreau>mine'
+e;253153;'bidet>145246';1;52;'bidet>cheval'
+e;1482065;'pomme>95102';1;6;'pomme>stupide'
+e;1482066;'pomme>144846';1;2;'pomme>tête'
+e;1482073;'pomme>215005>1482072';1;0;'pomme>objet en forme de pomme>motif décoratif'
+e;1482075;'pomme>215005>78397';1;0;'pomme>objet en forme de pomme>arrosoir'
+e;2945309;'pomme>132757';1;0;'pomme>pomme de terre'
+e;2945310;'pomme>1482072';1;0;'pomme>motif décoratif'
+e;2945313;'pomme>22083';1;0;'pomme>diffuseur'
+e;2945314;'pomme>235086';1;0;'pomme>prix de beauté'
+e;2945316;'pomme>161223';1;0;'pomme>couleur verte'
+e;2945317;'pomme>162434';1;0;'pomme>coeur de salade'
+e;236756;'se dessaper';1;8
+e;2623;'ponce';1;58
+e;182581;'gant de toilette';1;72
+e;195478;'à la mamelle';1;52
+e;15481992;'se souciant';1;0
+e;15477959;'en:watercure';1;0
+e;8774218;'en:hydropathy';1;0
+e;15477960;'en:hydriatics';1;0
+e;15477961;'en:water-cure';1;0
+e;15477962;'en:hydropathical';1;0
+e;15477963;'en:hydrotherapeutics';1;0
+e;15477964;'en:hydropathic';1;0
+e;14931949;'en:disappointment';1;0
+e;15065566;'en:disillusion';1;0
+e;15331586;'pommeau de la douche';1;0
+e;2441427;'se crosser';1;0
+e;15566039;'en:wash itself';1;0
+e;15261871;'se chatouiller le poireau';1;0
+e;15316549;'en:irrigating';1;0
+e;14960661;'en:hairdryer';1;0
+e;15211566;'vie au quotidien';1;0
+e;15209054;'en:soap foam';1;0
+e;16323527;'en:perform your ablutions';1;0
+e;15433056;'en:powder your nose';1;0
+e;15431577;'en:in the shower';1;0
+e;15207902;'receveur de douche';1;0
+e;15241332;'en:walk-in shower';1;0
+e;15083942;'en:steam room';1;0
+e;15046217;'en:Turkish bath';1;0
+e;14941474;'en:hammam';1;0
+e;15264602;'en:personal hygiene';1;0
+e;15435784;'en:bathroom towels';1;0
+e;166397;'serviette de bain';1;94
+e;15213595;'en:bath robe';1;0
+e;9012;'se tacher';1;88
+e;15358281;'remise en main propre';1;0
+e;248396;'prendre son bain';1;14
+e;127983;'allaitant';1;52
+e;15312199;'en:bodycare';1;0
+e;15239607;'en:get dirty';1;0
+e;15571787;'en:body oil';1;0
+e;15312250;'en:to wash itself';1;0
+e;15060228;'en:jack off';1;0
+e;15451627;'prise en charge de [qqn]';1;0
+e;8103129;'en:shampoo';1;0
+e;15301904;'s'astiquer la colonne';1;0
+e;3312959;'se faire arroser';1;2
+e;200631;'faire ses ablutions';1;56
+e;15209042;'en:liquid soap';1;0
+e;15248131;'en:to get soaked';1;0
+e;15248130;'en:to get drenched';1;0
+e;15193640;'en:day-to-day life';1;0
+e;11574089;'serviette>269576';1;16;'serviette>pièce de tissu'
+e;11305612;'pommeau>10561';1;0;'pommeau>douche'
+e;14572917;'::>119:14572916>29:14465372';8;0;'prendre [objet] douche [dans le but de] ne pas sentir mauvais'
+e;15060226;'en:jerk off';1;0
+e;14925038;'en:wank';1;0
+e;15421133;'faire une carte de France';1;0
+e;92776;'se polir';1;50
+e;15226505;'en:beat the meat';1;0
+e;15226506;'en:spank it';1;0
+e;15226507;'en:yank it';1;0
+e;15226503;'en:burp the worm';1;0
+e;15226504;'en:choke the chicken';1;0
+e;15454101;'en:have a wank';1;0
+e;332633;'se faire tremper';1;6
+e;104914;'camping';1;862
+e;111830;'soins';1;422
+e;107896;'carreau';1;248
+e;105395;'nourrissant';1;130
+e;15253312;'en:calcium deposit';1;0
+e;15197603;'en:paternalizing';1;0
+e;7331392;'en:nursing';1;0
+e;15088519;'en:ministration';1;0
+e;15563813;'en:groom itself';1;0
+e;15563814;'en:get washed';1;0
+e;15513251;'prise en charge de quelqu'un';1;0
+e;15572580;'prise en charge de';1;0
+e;14957858;'en:pick-up';1;0
+e;12467689;'en:shower curtain';1;0
+e;236037;'dépôt de calcaire';1;50
+e;251175;'huile pour le corps';1;6
+e;251319;'peignoir de bain';1;6
+e;1482074;'pomme>215005>10561';1;0;'pomme>objet en forme de pomme>douche'
+e;159887;'savon liquide';1;80
+e;15312248;'en:to groom itself';1;0
+e;15312249;'en:to have a wash';1;0
+e;386878;'vie pratique';1;52
+e;15193633;'en:practical life';1;0
+e;15201991;'en:have a wash';1;0
+e;15312247;'en:to get washed';1;0
+e;15241531;'en:massage glove';1;0
+e;11183789;'en:lack of care';1;0
+e;8464297;'en:hot water';1;0
+e;47;'fouta';1;50
+e;234521;'mousse de savon';1;50
+e;187490;'Dominique Strauss-Kahn';1;100
+e;249218;'faire un brin de toilette';1;50
+e;165118;'DSK';1;176
+e;218116;'Strauss-Kahn';1;62
+e;235003;'Dominique Strauss Kahn';666;50
+e;153206;'monsieur propre';1;66
+e;80813;'hydrophobe';1;52
+e;26558;'se salir';1;60
+e;15175;'Gant de crin';1;50
+e;259157;'séchoir à cheveux';1;20
+e;16160718;'sentir des aisselles';1;0
+e;254655;'baignade autorisée';1;8
+e;257764;'bonne hygiène';1;32
+e;3706640;'faire déborder la baignoire';1;0
+e;16160717;'mettre du déodorant';1;0
+e;1131064;'exhalation pestilentielle';1;0
+e;8730705;'mal lavée';1;0
+e;12485764;'puer la sueur';1;0
+e;7333439;'être négligé';1;4
+e;7333440;'ne pas changer de sous-vêtements';1;4
+e;14726404;'apparence négligée';1;0
+e;1753927;'tenue négligée';1;48
+e;14726406;'manque de soin';1;4
+e;7866;'se mouiller';1;72
+e;268644;'salle de bain avec baignoire';1;50
+e;15452357;'en:exfoliation glove';1;0
+e;15261523;'en:sauna bath';1;0
+e;213785;'carreau>142246';1;6;'carreau>faïence'
+e;71783;'charlotte';1;130
+e;163504;'la vie quotidienne';1;50
+e;15208528;'en:bath sheet';1;0
+e;15193639;'en:everyday life';1;0
+e;116311;'vie quotidienne';1;1068
+e;15452356;'en:exfoliating glove';1;0
+e;16074602;'Vie quotidienne';1;0
+e;226663;'gant de crin';1;74
+e;215006;'pomme>215005';1;18;'pomme>objet en forme de pomme'
+e;257739;'être soigné';1;72
+e;3706555;'se laver les pieds';1;4
+e;7333445;'craspègue';1;38
+e;14753228;'résidus de savon';1;0
+e;3438847;'ablution>143876';1;0;'ablution>laver'
+e;14584046;'à l'eau et au savon';1;0
+e;16163719;'à l'eau froide';1;4
+e;16163720;'se laver à l'eau froide';1;2
+e;16165041;'faire sa toilette à l'eau froide';1;0
+e;258242;'se sentir propre';1;52
+e;3705299;'avoir la flemme de se laver';1;64
+e;262166;'donner le bain';1;80
+e;14939870;'en:shower gel';1;0
+e;3706641;'inonder la salle de bain';1;0
+e;246069;'toilette de chat';1;8
+e;15094164;'en:shower cap';1;0
+e;216065;'::>14:70606>29:2344>16';9;50;'Avec quoi pourrait-on mouiller une chemise ?'
+e;255061;'::>66:135591>15:90053';8;50;'poil [lieu] lavabo'
+e;328920;'::>14:70606>29:2344';8;50;'mouiller [objet] chemise'
+e;14883609;'bruit de l'eau qui coule';1;0
+e;15135494;'en:bath towel';1;0
+e;179734;'drap de bain';1;30
+e;7333444;'manquer d'hygiène';1;52
+e;7333443;'ne pas se laver les dents';1;4
+e;196773;'bain moussant';1;52
+e;253055;'hygiène corporelle';1;142
+e;2444765;'salle de douches';1;0
+e;15207890;'en:shower tray';1;0
+e;311210;'lance à eau';1;50
+e;14938832;'en:fountain';1;0
+e;15352646;'en:water jet';1;0
+e;15450366;'en:jet of water';1;0
+e;15319490;'en:pressure washer';1;0
+e;225700;'maison>30030';1;64;'maison>entreprise'
+e;225703;'maison>225695';1;32;'maison>fait maison'
+e;225701;'maison>74579';1;8;'maison>astrologie'
+e;225702;'maison>66839';1;54;'maison>maison close'
+e;29690;'fuir';1;540
+e;15197732;'en:haired';1;0
+e;15197733;'en:capilli';1;0
+e;15197734;'en:scalp hair';1;0
+e;15079244;'en:water vapour';1;0
+e;14966429;'en:water vapor';1;0
+e;15431571;'en:have a shower';1;0
+e;15322295;'en:take a shower';1;0
+e;7224150;'en:medical procedure';1;0
+e;15446512;'en:hotel establishment';1;0
+e;15446513;'en:hotel property';1;0
+e;390287;'établissement hôtelier';1;50
+e;15289234;'en:reach orgasm';1;0
+e;14931809;'en:unwind';1;0
+e;15430543;'se taper [qqn]';1;0
+e;14939047;'en:jizz';1;0
+e;15204375;'en:make whoopee';1;0
+e;15425225;'en:churn butter';1;0
+e;1242;'faire la bête à deux dos';1;96
+e;14922684;'en:have sex';1;0
+e;35227;'rythmer';1;68
+e;15077645;'en:have it away';1;0
+e;15077646;'en:have it off';1;0
+e;14935440;'en:bonk';1;0
+e;15443291;'en:have a roll in the hay';1;0
+e;15348523;'en:to beat time';1;0
+e;15236059;'en:to go to bed with sb';1;0
+e;15566613;'en:go to bed with sb';1;0
+e;15236058;'en:to sleep with sb';1;0
+e;15566614;'en:sleep with sb';1;0
+e;2539735;'battre le beurre';1;0
+e;15431378;'coup de bite';1;0
+e;15428673;'en:be punctual';1;0
+e;15226662;'en:be right';1;0
+e;15428674;'en:tell the right time';1;0
+e;15407182;'en:blow his load';1;0
+e;15192290;'sacrifier à Vénus';1;0
+e;15192291;'en:see God';1;0
+e;15192292;'en:pray with the knees upward';1;0
+e;185740;'balancer la purée';1;50
+e;2456491;'envoyer la purée';1;0
+e;15433727;'en:fire away';1;0
+e;15196090;'frotter le lard ensemble';1;0
+e;15196091;'en:rub nasties';1;0
+e;15196092;'en:do the hanky panky';1;0
+e;15196093;'en:do the horizontal mambo jambo';1;0
+e;15196094;'en:do the nasty';1;0
+e;15196095;'en:bump uglies';1;0
+e;14930292;'en:shag';1;0
+e;153007;'partie de jambes en l'air';1;82
+e;15428676;'en:keep good time';1;0
+e;15340883;'en:be on time';1;0
+e;2605618;'manger l'oreiller';1;0
+e;15194567;'en:have an orgasm';1;0
+e;179754;'point d'orgue';1;50
+e;15357556;'en:leave, escape';1;0
+e;186039;'être à l'heure';1;10
+e;15424705;'en:shoot your wad';1;0
+e;15236057;'coucher avec qn';1;0
+e;14960917;'en:get laid';1;0
+e;15424702;'en:get your leg over';1;0
+e;15424703;'en:get your rocks off';1;0
+e;15424704;'en:shoot your load';1;0
+e;15424701;'en:have a quickie';1;0
+e;14939046;'en:cum';1;0
+e;15060712;'en:get off';1;0
+e;259908;'tirer sa crampe';1;50
+e;14928282;'en:climax';1;0
+e;251739;'tirer son coup';1;30
+e;14965061;'en:fiddle with';1;0
+e;15428675;'en:keep time';1;0
+e;14936475;'en:spook';1;0
+e;15210061;'en:beat out the rhythm';1;0
+e;15596749;'en:sleep with somebody';1;0
+e;15210060;'en:beat time';1;0
+e;14922685;'en:make love';1;0
+e;15197923;'en:to make love';1;0
+e;248542;'maladie du légionnaire';1;56
+e;15453643;'en:totally naked';1;0
+e;15453644;'en:completely naked';1;0
+e;15453645;'en:totally nude';1;0
+e;15453646;'en:completely nude';1;0
+e;14920468;'en:starkers';1;0
+e;14920469;'en:stark naked';1;0
+e;77687;'effort';1;578
+e;15434998;'en:stink of sweat';1;0
+e;15434999;'en:smell musky';1;0
+e;2442809;'douge';1;0
+e;99754;'commuer';1;50
+e;15198531;'en:to go to work';1;0
+e;185479;'aller au turbin';1;60
+e;15456929;'en:get back to the grindstone';1;0
+e;15456930;'en:get back to the daily grind';1;0
+e;13016050;'en:commute';1;0
+e;15417138;'en:travel to work';1;0
+e;15224947;'en:go to work';1;0
+e;15340420;'aller à son travail';1;0
+e;15311930;'en:cleanshaven';1;0
+e;15311931;'en:clean-shaven';1;0
+e;15267661;'en:close-shaven';1;0
+e;14932924;'en:disenchantment';1;0
+e;14931950;'en:disillusionment';1;0
+e;12853856;'9907323b61ffcff6bae6dda47fdf56cd';200;0
+e;14391846;'8315448b01465a846ad3b6b2aed7aa90';200;0
+e;232754;'eau grise';1;50
+e;255547;'eau chaude sanitaire';1;50
+e;6871;'serviette de toilette';1;78
+e;278300;'essuie de bain';777;50
+e;288691;'bain écossais';777;50
+e;290328;'Doué-la-Fontaine';777;50
+e;253154;'appareil sanitaire';1;8
+e;294386;'dispositif de plomberie mobile';777;50
+e;31579;'Cholet';1;50
+e;38236;'serviette-éponge';1;54
+e;151975;'appartements';1;56
+e;166396;'serviette éponge';1;126
+e;162841;'cabinet de toilette';1;60
+e;223019;'Les Sims';1;50
+e;265055;'legionella';1;50
+e;310978;'légionelles';777;54
+e;238718;'légionelle';1;6
+e;94596;'logement';1;1118
+e;252549;'habite';1;56
+e;112909;'piaule';1;60
+e;163883;'serviette de plage';1;104
+e;15799;'relogement';1;58
+e;1837660;'Legionella';1;0
+e;2365049;'riad';1;0
+e;2360927;'ryhad';1;0
+e;2462091;'La Prévière';1;0
+e;2477398;'Saint-Florent-le-Vieil';1;0
+e;566121;'activités de la vie quotidienne';777;50
+e;314702;'AVQ';1;50
+e;2933458;'activités journalières';777;0
+e;566122;'activités élémentaires';777;50
+e;333701;'acte de la vie quotidienne';1;50
+e;157755;'tuyau d'arrosage';1;102
+e;340091;'boyau d'arrosage';1;50
+e;2466278;'hose';1;0
+e;3742052;'halfenhall le tryharder';777;0
+e;5534862;'Mise en garde médicale';777;0
+e;155029;'serviette de table';1;100
+e;30569;'liteau';1;50
+e;10063472;'nano-argent';777;0
+e;418037;'sent';1;50
+e;2550428;'Pouancé';1;0
+e;11385703;'The Sims';777;0
+e;11385704;'simpeople';777;0
+e;5982442;'eaux grises';777;0
+e;5624320;'eau domestique';777;0
+e;11557749;'Les Sims 3';777;0
+e;11773011;'Karen McDougal';777;0
+e;9698721;'Douch';777;0
+e;14252583;'argent colloïdal';777;0
+e;4092387;'tadelakt';1;0
+e;14428779;'tadellakt';777;0
+e;14541113;'eaux usées domestiques';777;0
+e;6596665;'collet du Linge';777;0
+e;6596664;'massif du Linge';777;0
+e;92471;'linge';1;1116
+e;5536212;'Cette section ne cite pas suffisamment ses sources';777;0
