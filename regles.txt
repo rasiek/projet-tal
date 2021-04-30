@@ -6,18 +6,12 @@
 *quer & r_pos == Ver: ⇒ *cation
 *ser & r_pos == Ver: ⇒ *sation 
 *quer & r_pos == Ver: ⇒ *quage
-
-{% comment %} *er & -*ier ⇒ *age
-
+*er & -*ier ⇒ *age
 * er ⇒ *age & r_pos == Nom: & r_isa == action
-* er & n_pos == Ver:Inf ⇒ *age & r_pos == Nom: & r_isa == action {% endcomment %}
+* er & n_pos == Ver:Inf ⇒ *age & r_pos == Nom: & r_isa == action 			
+*er ⇒ *ement & r_pos == N & r_isa == action 
 
-
-				
-{% comment %} * er ⇒ *ement & r_pos == N & r_isa == action {% endcomment %}
-
-
-{% comment %} *er ⇒  *eur  & r_isa personne		 
+*er ⇒  *eur  & r_isa personne		 
 // (exemple : miner => mineur) 
 *er ⇒  *euse 				
 // (exemple : chanter => chanteuse) r_isa Personne
@@ -25,7 +19,8 @@
 *ger ⇒  *geoire		 	
 *ger ⇒ *goire & r_pos == N & r_isa lieu
 
-*er ⇒  *oire 				 
+*er ⇒  *oire 	
+
 // (exemple : patiner => patinoire) r_lieu
 
 *er ⇒  *oir’ 				
@@ -38,19 +33,19 @@
 *uire ⇒  *uction’  			
 *uire ⇒  *ucteur’ 			
 *uire ⇒  *uctrice’			 
-Verbe:ister ⇒ Nom:istance
-verbe:er ⇒ Nom:able
-*ger ⇒  *gement’  			
-verbe:ger ⇒ Nom:geur
-verbe:ner ⇒ Nom:naison
-verbe:quer ⇒ Nom:cation
-verbe:ser ⇒ Nom:sation 
-verbe:quer ⇒ Nom:quage
+*ister & r_pos == Ver: ⇒ Nom:istance
+*er & r_pos == Ver: ⇒ Nom:able
+*ger ⇒  *gement 			
+*ger & r_pos == Ver: ⇒ Nom:geur
+*ner & r_pos == Ver: ⇒ Nom:naison
+quer & r_pos == Ver: ⇒ Nom:cation
+ser & r_pos == Ver:⇒ Nom:sation 
+quer & r_pos == Ver:⇒ Nom:quage
 Verbe:ter:Nom:tement
-Verbe:dir ⇒ Nom:d
-Verbe:lir ⇒ Nom:lissage
-verbe:er ⇒ Nom:ant
-verbe:ller ⇒ Nom:l
+*dir & r_pos == Ver:⇒ Nom:d
+*lir & r_pos == Ver:⇒ Nom:lissage
+*er & r_pos == Ver: ⇒ Nom:ant
+*ller & r_pos == Ver:⇒ Nom:l
 Nom:” “ ⇒ adj:able
 Verbe:”er” ⇒ adj:ible
 Nom:” “ ⇒ Nom:”age”
@@ -104,4 +99,4 @@ Nom:"" ⇒ :Nom"arde"
 
 *e & r_isa animal ⇒  *eau & r_isa animal & r_isa bébé  
 tester si ce n'est pas 
-*e &    *r_isa animal      {% endcomment %}
+*e &    *r_isa animal

@@ -64,19 +64,21 @@ class Extractor:
             new_term = None
             # print(len(regle))
             if len(regle) > 1:
+
                 count = 0
 
                 for i in regle:
+
                     if count == 0:
-                        print(regle)
-                        print(i)
                         if i in self.term.r_pos:
+                            count += 1
                             continue
                         else:
                             break
 
-                    print(i, "2")
+                    # print(i, "2")
                     new_term = re.sub(f'{i[0]}$', i[1], self.term.r_term)
+                    new_term = None if new_term == self.term.r_term else new_term
                     count += 1
 
             else:
@@ -113,5 +115,20 @@ class Extractor:
                 if pos_info != None:
                     self.term.r_pos.append(pos_info.group(1))
 
+    def __term_exist(self, term):
 
-Extractor("dîner")
+        try:
+            page_req = requests.get(
+                f'http://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel={term}&rel=')
+            return page_req
+        except:
+            return False
+
+    def terms_rels(self):
+
+        for term in self.new_terms:
+
+            req = self.__term_exist(term)
+
+
+Extractor("abdiquer")
