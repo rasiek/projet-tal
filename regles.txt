@@ -1,11 +1,11 @@
 *er ⇒  *age					// laver ⇒ lavage
 *er ⇒  *oire
-*er ⇒  *ement
-*ger & r_pos == Verb: ⇒ *geur
-*ner & r_pos == Verb: ⇒ *naison
-*quer & r_pos == Verb: ⇒ *cation
-*ser & r_pos == Verb: ⇒ *sation 
-*quer & r_pos == Verb: ⇒ *quage
+*er & r_pos == Nom: ⇒  *ement
+*ger & r_pos == Ver: ⇒ *geur
+*ner & r_pos == Ver: ⇒ *naison
+*quer & r_pos == Ver: ⇒ *cation
+*ser & r_pos == Ver: ⇒ *sation 
+*quer & r_pos == Ver: ⇒ *quage
 
 {% comment %} *er & -*ier ⇒ *age
 
@@ -30,27 +30,27 @@
 
 *er ⇒  *oir’ 				
 *er ⇒  *age’ 				
-*er & pos == V ⇒ *e  & pos = N
-*er & pos == V  ⇒  *ant & pos = ADJ
-*ner & pos == V ⇒ *nier & pos = N
-*er  & pos == V ⇒ *ette & pos = N
+*er & r_pos == Ver: ⇒ *e  & pos = Nom:
+*er & r_pos == Ver:  ⇒  *ant & pos = ADJ
+*ner & r_pos == Ver: ⇒ *nier & pos = Nom:
+*er  & r_pos == Ver: ⇒ *ette & pos = Nom:
 
 *uire ⇒  *uction’  			
 *uire ⇒  *ucteur’ 			
 *uire ⇒  *uctrice’			 
-Verbe:ister ⇒ nom:istance
-verbe:er ⇒ nom:able
+Verbe:ister ⇒ Nom:istance
+verbe:er ⇒ Nom:able
 *ger ⇒  *gement’  			
-verbe:ger ⇒ nom:geur
-verbe:ner ⇒ nom:naison
-verbe:quer ⇒ nom:cation
-verbe:ser ⇒ nom:sation 
-verbe:quer ⇒ nom:quage
-Verbe:ter:nom:tement
-Verbe:dir ⇒ nom:d
-Verbe:lir ⇒ nom:lissage
-verbe:er ⇒ nom:ant
-verbe:ller ⇒ nom:l
+verbe:ger ⇒ Nom:geur
+verbe:ner ⇒ Nom:naison
+verbe:quer ⇒ Nom:cation
+verbe:ser ⇒ Nom:sation 
+verbe:quer ⇒ Nom:quage
+Verbe:ter:Nom:tement
+Verbe:dir ⇒ Nom:d
+Verbe:lir ⇒ Nom:lissage
+verbe:er ⇒ Nom:ant
+verbe:ller ⇒ Nom:l
 Nom:” “ ⇒ adj:able
 Verbe:”er” ⇒ adj:ible
 Nom:” “ ⇒ Nom:”age”
@@ -62,41 +62,41 @@ adj:””:adv:”ante”
 
 *er & r_pos Ver:Inf ⇒ *ant & r_pos Adj:		//  laver ⇒  lavant
 
-Nom:” “ ⇒ nom:”aison”
-Nompropre:” “ ⇒ nom:”oise”
-Verbe:” “ ⇒ nom:”ateur”
-Verbe:”er” ⇒ nom:”ation”
-Nom:” “ ⇒ nom:”isme”
-Nom:” “ ⇒ nom:”iste”
-Nom:” “ ⇒ verbe:”ir”
-Verbe:” “ ⇒ nom:”iteur” 
-nom:eur ⇒ nom:euse
-nom:er ⇒ nom:ance
-nom:" " ⇒ nom:aire
-nom:" " ⇒ nom:iaire
-nom:" " ⇒ nom:ale
-nom:" " ⇒ nom:al
-nom:" " ⇒ adj:al
-nom:"ale" ⇒ nom:ales
-nom:"al", nom:aux
-nom:" " ⇒ adj:ale
-nom: " " ⇒ adj:elle
-nom" " ⇒ adj:acé  
-nom:""  ⇒ adj:an
-nom:""  ⇒ adj:ane
+Nom:” “ ⇒ Nom:”aison”
+Nompropre:” “ ⇒ Nom:”oise”
+Verbe:” “ ⇒ Nom:”ateur”
+Verbe:”er” ⇒ Nom:”ation”
+Nom:” “ ⇒ Nom:”isme”
+Nom:” “ ⇒ Nom:”iste”
+Nom:” “ ⇒ Ver:”ir”
+Verbe:” “ ⇒ Nom:”iteur” 
+Nom:eur ⇒ Nom:euse
+Nom:er ⇒ Nom:ance
+Nom:" " ⇒ Nom:aire
+Nom:" " ⇒ Nom:iaire
+Nom:" " ⇒ Nom:ale
+Nom:" " ⇒ Nom:al
+Nom:" " ⇒ adj:al
+Nom:"ale" ⇒ Nom:ales
+Nom:"al", Nom:aux
+Nom:" " ⇒ adj:ale
+Nom: " " ⇒ adj:elle
+Nom" " ⇒ adj:acé  
+Nom:""  ⇒ adj:an
+Nom:""  ⇒ adj:ane
 
 Adj:ant:adv:emment r_manner		
 adj:ante ⇒ adv:emment			
 
-adj:tif:nom:tivité				
+adj:tif:Nom:tivité				
 
-adv:ant:nom:ance				
-Adv:ante:nom:ance 
+adv:ant:Nom:ance				
+Adv:ante:Nom:ance 
 
-nom:"":adj:ain
-nom:"":adj:aine
-nom:""nom"ard"
-nom:"" ⇒ :nom"arde"
+Nom:"":adj:ain
+Nom:"":adj:aine
+Nom:""Nom"ard"
+Nom:"" ⇒ :Nom"arde"
 
 *age & r_pos Nom: ⇒ *er & r_pos Ver:Inf
 *age ⇒ *er
