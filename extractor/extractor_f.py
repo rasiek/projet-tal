@@ -1,8 +1,10 @@
 
+from typing import Pattern
 from bs4 import BeautifulSoup
 import requests
 import re
-from term import Term
+from extractor.term import Term
+import os
 
 
 class Extractor:
@@ -17,17 +19,22 @@ class Extractor:
         self.term.r_term = criteria
         self.regles = []
         self.new_terms = []
+        self.not_exists = []
+        self.rel_types = {}
+        self.rels = {}
 
         self.__scrap()
-        self.__regles_construction()
-        print(self.term.r_pos)
-        self.termes_const()
-
-        print(self.new_terms)
+        if self.term.exist != False:
+            self.__regles_construction()
+            self.termes_const()
+            self.__terms_rels()
+            print(self.rels)
+        else:
+            print("term not exist")
 
     def __regles_construction(self):
 
-        with open("regles_test.txt", 'r') as f:
+        with open("extractor/regles.txt", 'r') as f:
             for ligne in f:
                 regle_info = re.search("(.*)⇒(.*\*[a-z]*)", ligne)
                 prop_1 = None
@@ -62,11 +69,9 @@ class Extractor:
 
         for regle in self.regles:
             new_term = None
-            # print(len(regle))
             if len(regle) > 1:
 
                 count = 0
-
                 for i in regle:
 
                     if count == 0:
@@ -76,7 +81,6 @@ class Extractor:
                         else:
                             break
 
-                    # print(i, "2")
                     new_term = re.sub(f'{i[0]}$', i[1], self.term.r_term)
                     new_term = None if new_term == self.term.r_term else new_term
                     count += 1
@@ -84,24 +88,79 @@ class Extractor:
             else:
                 new_term = re.sub(f'{regle[0][0]}$',
                                   regle[0][1], self.term.r_term)
+                new_term = None if new_term == self.term.r_term else new_term
 
             if new_term != None:
                 self.new_terms.append(new_term)
 
-    def __scrap(self):
+    def __req_and_parse(self, term=None):
 
-        self.term_data["n_entries"] = []
+        if term == None and os.path.exists(f'extractor/cache/{self.term.r_term}.txt'):
+
+            code_text = []
+            with open(f'extractor/cache/{self.term.r_term}.txt', 'r') as f:
+
+                for ligne in f:
+                    code_text.append(ligne)
+
+            return code_text
+
+        elif term and os.path.exists(f'extractor/cache/{term}.txt'):
+            code_text = []
+            with open(f'extractor/cache/{term}.txt', 'r') as f:
+
+                for ligne in f:
+                    code_text.append(ligne)
+
+            return code_text
 
         try:
-
-            page_req = requests.get(self.url)
+            url = f'http://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel={term}&rel='
+            page_req = requests.get(self.url if term == None else url)
 
         except Exception as e:
             print(e)
 
-        page_soup = BeautifulSoup(page_req.text, self.parser_engine)
+        if page_req.status_code == 200:
 
-        code_text = page_soup.find('code').text.split("\n")
+            if term:
+
+                try:
+                    page_soup = BeautifulSoup(
+                        page_req.text, self.parser_engine)
+                    code_text = page_soup.find('code').text.split("\n")
+
+                    with open(f"extractor/cache/{term}.txt", 'w') as f:
+                        f.writelines(code_text)
+
+                    return code_text
+                except:
+                    return None
+
+            else:
+
+                page_soup = BeautifulSoup(page_req.text, self.parser_engine)
+                if page_soup.find('code'):
+                    code_text = page_soup.find('code').text.split("\n")
+                else:
+                    return None
+
+                with open(f"extractor/cache/{self.term.r_term}.txt", 'w') as f:
+                    f.writelines(code_text)
+
+                return code_text
+
+        else:
+            return 'Conn Error'
+
+    def __scrap(self):
+
+        code_text = self.__req_and_parse()
+
+        if code_text == None:
+
+            self.term.exist = False
+            return
 
         for ligne in code_text:
 
@@ -110,25 +169,60 @@ class Extractor:
                 if id_info != None:
                     self.term.id = id_info.group(1)
 
+            if re.match('[1-9]', ligne):
+                self.term.definition.append(ligne)
+
             if re.match('e', ligne):
                 pos_info = re.search(".*;\'(.*)\';4;.*", ligne)
                 if pos_info != None:
                     self.term.r_pos.append(pos_info.group(1))
 
-    def __term_exist(self, term):
+            if re.match('rt', ligne):
+                key_info = re.search('rt;([0-9]*);(.*)', ligne)
 
-        try:
-            page_req = requests.get(
-                f'http://www.jeuxdemots.org/rezo-dump.php?gotermsubmit=Chercher&gotermrel={term}&rel=')
-            return page_req
-        except:
-            return False
+                if key_info != None:
+                    self.rel_types[key_info.group(1)] = key_info.group(2)
 
-    def terms_rels(self):
+    def __scrap_new_terms(self, code_text):
+
+        term_id = None
+        pos = []
+        rels = []
+        defs = []
+
+        for ligne in code_text:
+
+            if term_id == None:
+                id_info = re.search('eid=(.*)\)', ligne)
+                if id_info != None:
+                    term_id = id_info.group(1)
+
+            if re.match('[1-9]', ligne):
+                defs.append(ligne)
+
+            elif re.match('e', ligne):
+                pos_info = re.search(".*;\'(.*)\';4;.*", ligne)
+                if pos_info != None:
+                    pos.append(pos_info.group(1))
+
+            elif re.match('r', ligne):
+                pattern = f"{term_id};{self.term.id};(.*);"
+                rel = re.search(pattern, ligne)
+
+                if rel != None:
+                    rels.append(self.rel_types[rel.group(1)])
+
+        return pos, rels, defs
+
+    def __terms_rels(self):
 
         for term in self.new_terms:
 
-            req = self.__term_exist(term)
+            req = self.__req_and_parse(term)
 
+            if req != None:
+                pos, rels, defs = self.__scrap_new_terms(req)
+                self.rels[term] = [pos, rels, defs]
 
-Extractor("abdiquer")
+            else:
+                self.not_exists.append(term)

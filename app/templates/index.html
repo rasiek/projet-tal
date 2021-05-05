@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="vp1-container">
+    <div class="hero-title">
+        <h1>Derivation Morphologique</h1>
+    </div>
+
+    <div class="bar-recherche">
+        <form class="form-rech" id="form-recherche" method="POST">
+
+            <div>
+                <input type="text" id="input-form" name="term" placeholder="Terme à recherche" required>
+                <button id="btn" type="submit"><i class="fas fa-search"></i></button>
+            </div>
+
+        </form>
+
+    </div>
+</div>
+
+
+{% if id %}
+<div class="card-term">
+
+    <div class="term-title">
+        <span>Terme</span>
+        <h2>{{ term|capitalize }}</h2>
+    </div>
+    <div class="term-desc">
+        <span>Description</span>
+        <div class="desc">
+            
+            {% for i in pos %}
+            <span>{{ i }}</span>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="term-def">
+        <span>Définition(s)</span>
+        {% if defs|length > 0 %}
+        {% for def in defs %}
+        <p>{{ def }}</p>
+        {% endfor %}
+        {% else %}
+        <p>Il n'y a pas de definitions pour ce mot</p>
+        {% endif %}
+
+    </div>
+</div>
+<div class="derives">
+    <h2>Termes derivées</h2>
+    {% if rels|length > 0 %}
+    {% for term in rels %}
+    <div class="card-terms">
+        <div class="term-title">
+            <span>Terme</span>
+            <h2>{{ term }}</h2>
+        </div>
+        <div class="term-desc">
+
+            <span>Description</span>
+            <div class="desc">
+            {% for pos in rels[term][0] %}
+            <span>{{ pos }}</span>
+            {% endfor %}
+            </div>
+        </div>
+        <div class="term-def">
+            <span>Définition(s)</span>
+            {% for def in rels[term][2] %}
+            <p>{{ def }}</p>
+            {% endfor %}
+        </div>
+        <div class="term-rels">
+            <span>Relations</span>
+            {% for r in rels[term][1] %}
+            <p>{{ r }}</p>
+            {% endfor %}
+        </div>
+    </div>
+    {% endfor %}
+    {% else %}
+    <p>Il n'y a pas de termes derivées pour ce mot</p>
+    {% endif %}
+
+</div>
+
+    <div class="not_exists">
+        <h2>
+            Termes non existants
+        </h2>
+
+        <div class="term-list">
+        {% for term in not_exist %}
+        <span>{{ term }}</span>
+        {% endfor %}
+        </div>
+    </div>
+{% elif exist == False %}
+
+<div class="not-found">
+    <h1>Le mot {{ term }} n'existe pas</h1>
+</div>
+
+{% else %}
+
+{% endif %}
+{% endblock %}

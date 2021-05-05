@@ -1,9 +1,0 @@
-*er ⇒  *age					// laver ⇒ lavage
-*er ⇒  *oire
-*er ⇒  *ement
-*ger & r_pos == Ver: ⇒ *geur
-*ner & r_pos == Ver: ⇒ *naison
-*quer & r_pos == Ver: ⇒ *cation
-*ser & r_pos == Ver: ⇒ *sation 
-*quer & r_pos == Ver: ⇒ *quage
-

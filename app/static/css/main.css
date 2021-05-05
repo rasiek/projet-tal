@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+}
+span {
+    color: grey;
+    font-family: 'Montserrat';
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+p, h1, h2, h3, h4, h5 {
+    font-family: 'Roboto';
+}
+
+.vp1-container {
+    position: relative;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-title {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    text-align: center;
+}
+
+.bar-recherche{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar-recherche input {
+    width: 40vw;
+    margin:10px;
+
+}
+
+.add-critere {
+    display: flex;
+    justify-content: center;
+}
+
+.form-rech {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.form-rech div {
+    display: flex;
+}
+
+.form-rech div input {
+    margin: 0;
+    height: 40px;
+    padding: 0;
+    padding-left: 24px;
+    border: 2px solid black;
+    border-right: 0;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+}
+
+
+.form-rech div input::placeholder {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.form-rech div button {
+    margin: 0;
+    border: none;
+    background-color: black;
+    border-left: 10px;
+    border-color: black;
+    width: 44px;
+    height: 44px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    cursor: pointer;
+}
+
+.form-rech div button i {
+    color: white;
+    font-size: 1.2em;
+}
+
+
+.form-rech label {
+    margin-top: 20px;
+    font-family: 'Roboto';
+    align-self: center;
+    font-weight: bold;
+    color: black;
+    font-style: italic;
+}
+
+
+.card-term {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-term div {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.term-title h2 {
+    margin: 0;
+}
+
+.term-def :nth-child(2) {
+    margin: 0;
+}
+
+.desc span {
+    color: black;
+    font-size: 1em;
+    font-family: 'Roboto';
+    font-weight: normal;
+}
+
+.derives {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.derives h2 {
+    font-weight: bold;
+}
+
+.not_exists h2 {
+    font-weight: bold;
+
+}
+
+.card-terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.term-rels :nth-child(2) {
+    margin: 0;
+}
+
+.card-terms div {
+    width: 40%;
+    margin-bottom: 20px;
+}
+
+.not_exists {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.term-list span {
+    margin: 10px;
+    font-family: 'Roboto';
+    font-size: 1em;
+    color: black;
+    font-weight: normal;
+
+}
+
+
+
+
+
+
+
+
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
+
+.not-found h1 {
+    font-family: 'Montserrat';
+    width: 80%;
+    text-align: center;
+    align-self: center;
+
+}

@@ -1,0 +1,46 @@
+*er ⇒  *age					// laver ⇒ lavage
+*er ⇒  *oire
+*er ⇒  *ement
+*ger & r_pos == Ver: ⇒ *geur
+*ner & r_pos == Ver: ⇒ *naison
+*quer & r_pos == Ver: ⇒ *cation
+*ser & r_pos == Ver: ⇒ *sation 
+*quer & r_pos == Ver: ⇒ *quage
+*oir & r_pos == Ver: ⇒ *able
+*uire ⇒  *uction  			
+*uire ⇒  *ucteur 			
+*uire ⇒  *uctrice			 
+*ister & r_pos == Ver: ⇒ *istance & r_pos == Nom:
+*er & r_pos == Ver: ⇒ *able & r_pos == Nom:
+*ger ⇒  *gement 			
+*ger & r_pos == Ver: ⇒ geur & r_pos == Nom:
+*ner & r_pos == Ver: ⇒ naison & r_pos == Nom:
+*quer & r_pos == Ver: ⇒ cation & r_pos == Nom:
+*ser & r_pos == Ver:⇒ sation  & r_pos == Nom:
+*quer & r_pos == Ver:⇒ quage & r_pos == Nom:
+*ter & r:pos == Ver: ⇒ *tement & r_pos == Nom:
+*dir & r_pos == Ver:⇒ d & r_pos == Nom:
+*lir & r_pos == Ver:⇒ lissage & r_pos == Nom:
+*er & r_pos == Ver: ⇒ ant & r_pos == Nom:
+*ller & r_pos == Ver:⇒ l & r_pos == Nom:
+*er & r_pos == Ver: ⇒ *ible & r_pos == Adj:
+*ier & r_pos == Nom: ⇒ *eraie & r_pos == Nom:			
+*ale & r_pos == Nom: ⇒ *ales
+*al & r_pos == Nom: ⇒ *aux
+*e & r_pos == Nom: ⇒ *isme
+*e & r_pos == Nom: ⇒ *iste
+*er & r_pos Ver:Inf ⇒ *ant		//  laver ⇒  lavant
+*e ⇒  *eau & r_isa animal & r_isa bébé  
+*er & r_pos == Ver: ⇒ *ation
+*ante & r_pos == Adj: ⇒ *emment			
+*age & r_pos Nom: ⇒ *er 
+*er & r_pos Ver: ⇒ *at				
+*tif & r_pos == Adj: ⇒ *tivité				
+*ant & r_pos == Adv: ⇒ *ance & r_pos == Nom:				
+*ante & r_pos == Adv: ⇒ *ance & r_pos == Nom: 
+*eur & r_pos == Nom: ⇒ *euse
+*er & r_pos == Nom: ⇒ *ance
+*aire ⇒ *riser
+*er & r_pos == Ver: ⇒ *erelle 
+*que & r_pos == Nom: ⇒ *cal
+*er & r_pos == Ver: ⇒ *ier
